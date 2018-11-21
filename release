@@ -3,7 +3,7 @@
 # Commits beginning with `fix` or `feat` trigger a new patch or minor
 # version. Commits containing `BREAKING CHANGE` trigger a new major
 # version.
-set -ex
+set -e
 
 head="origin/$TRAVIS_BRANCH"
 
