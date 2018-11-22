@@ -7,4 +7,9 @@ test:
 fmt:
 	prettier --no-color --write *.md *.ts *.yml
 
-.PHONY: test fmt
+docs:
+	npm install typedoc typedoc-plugin-markdown --no-save
+	node_modules/.bin/typedoc --out docs dotenv.ts --ignoreCompilerErrors --readme none --theme markdown --excludeNotExported --mode file --name 'Deno Dotenv'
+
+
+.PHONY: test fmt docs
