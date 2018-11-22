@@ -5,7 +5,17 @@ export interface DotenvConfig {
 }
 
 export interface ConfigOptions {
+  /**
+   * Path to alternative environment file.
+   * @default `./.env`
+   */
   path?: string;
+
+  /**
+   * Exports variables in environment file to process environment when
+   * set to `true`.
+   * @default `false`
+   */
   export?: boolean;
 }
 
