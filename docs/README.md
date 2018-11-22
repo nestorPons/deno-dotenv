@@ -1,17 +1,16 @@
-
-#  Deno Dotenv
+# Deno Dotenv
 
 ## Index
 
 ### Interfaces
 
-* [ConfigOptions](interfaces/configoptions.md)
-* [DotenvConfig](interfaces/dotenvconfig.md)
+- [ConfigOptions](interfaces/configoptions.md)
+- [DotenvConfig](interfaces/dotenvconfig.md)
 
 ### Functions
 
-* [config](#config)
-* [parse](#parse)
+- [config](#config)
+- [parse](#parse)
 
 ---
 
@@ -19,36 +18,36 @@
 
 <a id="config"></a>
 
-###  config
+### config
 
-▸ **config**(options?: *[ConfigOptions](interfaces/configoptions.md)*): [DotenvConfig](interfaces/dotenvconfig.md)
+▸ **config**(options?: _[ConfigOptions](interfaces/configoptions.md)_): [DotenvConfig](interfaces/dotenvconfig.md)
 
-*Defined in [dotenv.ts:35](https://github.com/pietvanzoen/deno-dotenv/blob/85e96eb/dotenv.ts#L35)*
+_Defined in [dotenv.ts:35](https://github.com/pietvanzoen/deno-dotenv/blob/ab85848/dotenv.ts#L35)_
 
 **Parameters:**
 
-| Name | Type | Default value |
-| ------ | ------ | ------ |
-| `Default value` options | [ConfigOptions](interfaces/configoptions.md) |  {} |
+| Name                    | Type                                         | Default value |
+| ----------------------- | -------------------------------------------- | ------------- |
+| `Default value` options | [ConfigOptions](interfaces/configoptions.md) | {}            |
 
 **Returns:** [DotenvConfig](interfaces/dotenvconfig.md)
 
-___
+---
+
 <a id="parse"></a>
 
-###  parse
+### parse
 
-▸ **parse**(rawDotenv: *`string`*): [DotenvConfig](interfaces/dotenvconfig.md)
+▸ **parse**(rawDotenv: _`string`_): [DotenvConfig](interfaces/dotenvconfig.md)
 
-*Defined in [dotenv.ts:22](https://github.com/pietvanzoen/deno-dotenv/blob/85e96eb/dotenv.ts#L22)*
+_Defined in [dotenv.ts:22](https://github.com/pietvanzoen/deno-dotenv/blob/ab85848/dotenv.ts#L22)_
 
 **Parameters:**
 
-| Name | Type |
-| ------ | ------ |
+| Name      | Type     |
+| --------- | -------- |
 | rawDotenv | `string` |
 
 **Returns:** [DotenvConfig](interfaces/dotenvconfig.md)
 
-___
-
+---

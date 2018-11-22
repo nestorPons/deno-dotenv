@@ -23,7 +23,7 @@
 
 **● export**: *`boolean`*
 
-*Defined in [dotenv.ts:19](https://github.com/pietvanzoen/deno-dotenv/blob/85e96eb/dotenv.ts#L19)*
+*Defined in [dotenv.ts:19](https://github.com/pietvanzoen/deno-dotenv/blob/ab85848/dotenv.ts#L19)*
 
 Exports variables in environment file to process environment when set to `true`.
 *__default__*: `false`
@@ -35,7 +35,7 @@ ___
 
 **● path**: *`string`*
 
-*Defined in [dotenv.ts:12](https://github.com/pietvanzoen/deno-dotenv/blob/85e96eb/dotenv.ts#L12)*
+*Defined in [dotenv.ts:12](https://github.com/pietvanzoen/deno-dotenv/blob/ab85848/dotenv.ts#L12)*
 
 Path to alternative environment file.
 *__default__*: `./.env`
